@@ -10,3 +10,5 @@ hooks:
   AfterInstall:
     - location: scripts/after_install.sh
       runas: root
+    - location: scripts/run_flask.sh
+      runas: ubuntu 
